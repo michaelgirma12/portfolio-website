@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Michael Girma </div>
+        <div>
+            <ul class="nav-links"> 
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="stack-nav">
+        <div class="logo">Michael Girma </div>
+        <div class="stack-menu">
+            <div class="stack-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/portfoilo headshot f.png" alt="Michael Girma profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title"> Michael Girma</h1>
+            <p class="section__text__p2"> Cloud Engineering Associate</p>
+            <div class="btn-contaner"> 
+                <button class="btn btn-color-2"
+                 onclick="window.open('./assets/Cloud associate eng.pdf')"> 
+                 Download CV
+                </button>
+                <button class="btn btn-color-1"
+                 onclick="location.href= './#contact'"> 
+                 Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <a href="https://www.linkedin.com/in/michaelgirma12" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon">
+                </a>
+                <a href="https://github.com/michaelgirma12" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/github.png" alt="My github Profile" class="icon">
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text_p1">Get to Know More</p>
+        <h1 class="tile">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img 
+                src="./assets/about-picf.png" 
+                alt="profile picture"
+                class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" 
+                        alt="experience icon" 
+                        class="icon"
+                        >
+                        <h3>Experience</h3>
+                        <p>1 Year <br /> Freelance Web Developer</p>                        
+                    </div>
+                    <div class="details-container">
+                        <img 
+                        src="./assets/education.png" 
+                        alt="education icon" 
+                        class="icon">
+                        <h3>Education</h3>
+                        <p>B.Sc in Mathematics UF*<br /> Virginia Tech </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Enthusiastic and tech-savvy professional with a strong foundation in cloud computing, 
+                        mathematics, and computer science. Experienced in Java, Python, C++, SQL, and Linux/Windows systems. 
+                        Skilled in troubleshooting, problem-solving, and workflow optimization, with a proven ability to collaborate 
+                        across teams and drive process improvements. Passionate about applying technical and cloud expertise to build 
+                        secure, scalable, and efficient enterprise solutions.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+        />
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Freelance Web Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon" 
+                            class="icon"
+                            >
+                            <div>
+                                <h3>HTML/CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon" 
+                            class="icon"
+                            >
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon" 
+                            class="icon"
+                            >
+                            <div>
+                                <h3>Java</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon" 
+                            class="icon"
+                            >
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon" 
+                            class="icon"
+                            >
+                            <div>
+                                <h3>Windows/linux</h3>
+                                <p>knowlageable</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon" 
+                            class="icon"
+                            >
+                            <div>
+                                <h3>Git</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Inventory Control Specialist</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon" 
+                            class="icon"
+                            >
+                            <div>
+                                <h3>Project Management</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon" 
+                            class="icon"
+                            >
+                            <div>
+                                <h3>Performance Management</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon" 
+                            class="icon"
+                            >
+                            <div>
+                                <h3>Team Orginization</h3>
+                                <p>Proficient</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon" 
+                            class="icon"
+                            >
+                            <div>
+                                <h3>Operational Systems</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'">
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <a href="https://github.com/michaelgirma12/CSV-Data-Analyzer"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-color-2 project-btn">
+                        GitHub
+                    </a>
+
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <a href="https://github.com/michaelgirma12/C-Data-analysis-Project-"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-color-2 project-btn">
+                        GitHub
+                    </a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+ <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:mikework1224@gmail.com">mikework1224@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Michael Girma. All Rights Reserved.</p>
+    </footer>
+    <script src= "script.js"> </script>
+</body>
+</html>
