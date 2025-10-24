@@ -18,7 +18,7 @@ A modern, responsive portfolio website showcasing my skills and experience as a 
 - **View Tracking**: AWS Lambda integration for tracking website visits
 - **Cloud Deployment**: Fully deployed on AWS infrastructure
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Frontend
 - **HTML5, CSS3, JavaScript (ES6+)**
@@ -71,7 +71,7 @@ portfolio-website/
 └── script.js # JavaScript functionality
 
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -140,7 +140,7 @@ portfolio-website/
    - Set up Lambda integration
    - Deploy API to production stage
 
-## 📱 Responsive Design
+##  Responsive Design
 
 The website is fully responsive with breakpoints at:
 - **Desktop**: 1400px and above
@@ -148,7 +148,7 @@ The website is fully responsive with breakpoints at:
 - **Mobile**: 600px - 1199px
 - **Small Mobile**: Below 600px
 
-## 🎨 Customization
+## Customization
 
 ### Updating Personal Information
 
@@ -172,7 +172,7 @@ The website is fully responsive with breakpoints at:
 3. Update navigation links
 4. Add responsive styles in `mediaqueries.css`
 
-## 🔧 Technical Details
+## Technical Details
 
 ### JavaScript Functionality
 
